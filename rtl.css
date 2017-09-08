@@ -1,0 +1,64 @@
+/*
+Theme Name: Shreeja
+
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+.text-right {
+    text-align: left !important;
+}
+.mr-1 {
+    margin-left: 1rem;
+}
+.mr-2 {
+    margin-left: 1rem;
+}
+.mr-3 {
+    margin-left: 1rem;
+}
+.mr-4 {
+    margin-left: 1rem;
+}
+.pr-1 {
+    padding-left: 1rem;
+}
+.pr-2 {
+    padding-left: 1rem;
+}
+.pr-3 {
+    padding-left: 1rem;
+}
+.pr-4 {
+    padding-left: 1rem;
+}
+.float-right {
+    float: left;
+}
+body {
+    overflow-x: hidden;
+}
+.widget.card ul {
+    margin-right: 0rem;
+    padding-right: 0rem;
+}
+.widget.card > .card-block > div > ul li a:before, .widget.card > .card-block > ul li a:before, .widget.card > .card-block > ul li:before, .widget_calendar caption:before {
+    margin-left: 8px;
+    margin-right: 0;
+}
+.ml-auto {
+    margin-right: auto !important;
+    margin-left: 0 !important;
+}
+.shreeja-cover-wrapper {
+    margin-right: -50vw;
+}

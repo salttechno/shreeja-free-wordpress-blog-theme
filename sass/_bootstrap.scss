@@ -1,0 +1,18 @@
+// import variables
+@import "variables-site/variables-site";
+
+// custom variables
+$font-family-base: 'Esteban', serif;
+$headings-font-family: 'Montserrat', sans-serif;
+$headings-font-weight: 400;
+$body-color: $color__body-text;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1280px
+);
+
+// import bootstrap 4
+@import "bootstrap/bootstrap";
